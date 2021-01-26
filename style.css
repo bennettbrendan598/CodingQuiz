@@ -1,0 +1,35 @@
+/*Instruction screen formatting*/
+.jumbotron {
+    text-align: center;
+}
+
+#green {
+    color: green;
+    font-weight: bold;
+}
+
+#red {
+    color: red;
+    font-weight: bold;
+}
+
+#good-luck {
+    font-size: large;
+}
+
+/* Question formatting*/
+.container {
+    background-color: #e9ecef;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+/*Correct/Incorrect question color*/
+#correct:active {
+    background-color: green;
+}
+
+#incorrect:active {
+    background-color: red;
+}

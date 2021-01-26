@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="jumbotron">
+    <div class="jumbotron mainDiv">
         <h1 class="display-4">Coding Quiz Challenge</h1>
         <p class="lead">Created by Brendan Bennett, a student of the University of Denver's Coding Bootcamp</p>
         <hr class="my-4">
@@ -27,3 +27,23 @@
 </body>
 
 </html>
+
+<script>
+    var questions = [
+        {title: "question",
+        choices: ["a", "b", "c"],
+        answer: "b"
+    },
+         {}, 
+         {}, 
+         {}, 
+         {}
+    ]
+//Loop through and dynamically create on-click event
+    var theDivInMyHTML=document.querySelector(".mainDiv")
+    var myNewButton=document.createElement("button");
+    myNewButton.textContent=question[0].choices;
+    myNewButton.setAttribute("value", "")
+    theDivInMyHTML.append(myNewButton);
+
+</script>

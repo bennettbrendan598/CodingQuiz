@@ -18,4 +18,4 @@ function updateCountdown() {
 
 // How to stop timer from going negative??
 
-// How to keep and SAVE score??
+// How to keep and SAVE score locally??
